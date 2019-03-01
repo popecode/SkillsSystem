@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pages/benji-pope/SkillsSystem.Build/precache-manifest.f77c540f11f14153d07d465398e411d8.js"
+  "/skillsystem/precache-manifest.5a9f3cdf7232471efe1d5fdb74a8ccca.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/pages/benji-pope/SkillsSystem.Build/index.html", {
+workbox.routing.registerNavigationRoute("/skillsystem/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
